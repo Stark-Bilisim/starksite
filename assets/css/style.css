@@ -8144,3 +8144,26 @@ ul:not(.cs-mega_wrapper)
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* ===== Scrollbar CSS ===== /
+  / Firefox */
+  
+{
+  scrollbar-width: auto;
+  scrollbar-color: #00f6ff #06101b;}
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #06101b;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00f6ff;
+    border-radius: 10px;
+    border: 3px solid #00f6ff;
+  }
